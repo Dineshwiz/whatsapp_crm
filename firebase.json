@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "paybaygo-crm-f16f6",
+          "configurations": {
+            "macos": "1:688641494608:ios:5b092c89149d9072bacb55",
+            "web": "1:688641494608:web:23e13d61de9af570bacb55",
+            "windows": "1:688641494608:web:85ab294ec4ad7beebacb55"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
